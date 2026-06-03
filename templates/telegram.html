@@ -1,0 +1,25 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newes</title>
+    <link rel="stylesheet" href="{%static 'css/telegram.css'%}">
+</head>
+<body>
+    
+</body>
+</html>
+<img class="ui" src="{%static 'image/fanafigma.jpg'%}">
+    {%for post in posts%}
+    <div class="post">
+     <h1>{{post.title}}</h1> 
+     <h2> {{post.published}}</h2>
+     <div class="image">
+        {{post.summary|safe}}
+     </div>
+     <a class="openpost" href="{{post.link}}">open post</a>
+    </div>
+    {%endfor%}
+  

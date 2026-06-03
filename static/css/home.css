@@ -1,0 +1,104 @@
+   body{
+         
+          background-size: cover;
+          background-repeat: no-repeat;
+            justify-items: center;
+            background-image: url(../image/dark-nature-dvo2k0j2fz5up9x1.jpg);
+          
+
+        }
+        div{
+            border: solid rgb(193, 64, 18) 3px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            width: 1200px;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            margin-top: 1.6cm;
+             animation: div 2s ease-in;
+        }
+        h1{
+            color:rgb(214, 106, 18);
+            text-align: center;
+            letter-spacing: 0.3cm;
+            animation: head 3s ease-in-out;
+           
+        }
+           hr{
+            width: 1200px;
+            animation: hr 2s ease-out;
+        }
+        h2{
+            color:rgb(26, 161, 187);
+            font-family:monospace;
+            font-size: 28px;
+           
+        }
+        p{
+            color: rgb(240, 242, 245);
+            font-family: monospace;
+            font-size: 20.8px;
+            text-align: center;
+        }
+        .img{
+            margin-left: 400px;
+            border-radius: 10px;
+            width: 400px;
+        }    
+        h3{
+            color: rgb(59, 125, 59);
+        }
+        small{
+            color: rgb(215, 209, 209);
+            margin-left: 14cm;
+        }
+@keyframes div{
+    from{
+        transform: translatey(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}    
+@keyframes head{
+    from{
+        transform: translatex(-400px);
+        opacity: 0;
+    }
+    to{
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}     
+@keyframes hr{
+    from{
+        
+        opacity: 0;
+    }
+    to{
+       
+        opacity: 1;
+    }
+}   
+@keyframes img{
+    20%{
+    background-image: url();
+    }
+    40%{
+        background-image: url();
+    }
+    60%{
+        background-image: url();
+    }
+    80%{
+        background-image: url();
+    }
+    100%{
+        background-image:url() ;
+    }
+}  
+     

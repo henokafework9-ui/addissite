@@ -1,0 +1,24 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG HOME</title>
+    <link rel="stylesheet" href="{% static 'css/home.css'%}">
+</head>
+<body>
+ <h1>WELCOME TO MY BLOG SITE !!!!</h1><hr>
+     {% for blog in blogs%}
+     <div>
+    <h2>{{blog.title}}</h2>
+    <img src="{{ blog.image.url }}" class="img" >
+    <p>{{blog.explanation}}</p>
+    <h3>{{blog.source }}</h3>
+    <small>{{blog.cratedat}}</small>
+  </div>
+    {%endfor%}
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+*{
+    color:red;
+}
+label{
+    color: aliceblue;
+    font-size: 23px;
+    margin-left: 0.3cm;
+    display: inline-block;
+    vertical-align: bottom;
+}
+body{
+     background-image: url("../image/dark-nature-dvo2k0j2fz5up9x1.jpg");
+     background-size: cover;
+     background-repeat:no-repeat ;
+     filter: brightness(88%);
+     justify-content: center;
+     align-items: center;
+     justify-items: center;
+     display: block;
+
+    }
+form{
+
+    border: solid none;
+    border-radius: 10px;
+   background: rgba(0,0,0, 0.5);
+    box-shadow: 5px 6px 10px rgb(66, 203, 203);
+    width: 500px;
+    height: auto;
+    margin-top: 2.5cm;
+     justify-content: center;
+     align-items: center;
+     justify-items: center;
+     animation: form 10s infinite;
+    
+}
+input{
+    margin-left:0.2cm;
+      display: inline-block;
+    vertical-align: middle;
+    width: 208px;
+    height: 30px;
+    border: solid rgb(192, 187, 187);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 1cm;
+    color: rgb(205, 78, 9);
+    text-align: center;
+    margin-right: 4cm;
+    background-color: transparent;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 83, 10);
+    border-radius: 13px;
+    font-size: 28px;
+    display: flex;
+    border: none;
+    font-weight: 800;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:1cm;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+a{
+    margin-left: 8.5cm;
+    color: white;
+    letter-spacing: 0.09cm;
+}
+/*for mobile*/
+@media(max-width:700px){
+    label{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 0.1cm;
+}
+
+form{
+    border: solid none;
+    border-radius: 10px;
+    box-shadow: 5px 6px 10px rgb(66, 203, 203);
+    width: 97%;
+    height: auto;
+    margin-top: 2cm;
+     justify-content: center;
+     align-items: center;
+     justify-items: center;
+     animation: form 10s infinite;
+    
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: solid rgb(192, 187, 187);
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 1cm;
+    color: rgb(10, 213, 206);
+    text-align: center;
+    background-color: transparent;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(3, 255, 242);
+    border-radius: 13px;
+    font-size: 28px;
+    display: flex;
+    font-weight: 800;
+    padding: 4px;
+    margin:1cm;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+}
+@keyframes form{
+  
+20%{
+     box-shadow: 5px 6px 10px rgb(66, 203, 203);
+}
+50%{
+     box-shadow: 5px 6px 10px rgb(230, 83, 15);
+}
+70%{
+     box-shadow: 5px 6px 10px rgb(93, 213, 8);
+}
+100%{
+     box-shadow: 5px 6px 10px rgb(215, 11, 229);
+}
+}
